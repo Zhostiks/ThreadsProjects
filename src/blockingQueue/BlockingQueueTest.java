@@ -7,6 +7,14 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.stream.*;
 
+/**
+ * demonstrates the use of a blocking queue 
+ * to control multiple threads of execution
+ * this program searches through all the files 
+ * in a directory and its subdirectories, outputting
+ * lines of code containing the specified keyword
+ */
+
 public class BlockingQueueTest
 {
     private static final int FILE_QUEUE_SIZE = 10;
